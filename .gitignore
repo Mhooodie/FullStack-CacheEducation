@@ -1,0 +1,14 @@
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*.log
+
+# Node tooling (if ever added)
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# VSCode settings (optional)
+.vscode/
