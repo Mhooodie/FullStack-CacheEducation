@@ -1,0 +1,56 @@
+/* cache.css */
+
+/*ALL-PAGES MARGINS*/
+html, body { 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*HEADER-TEXT STYLES*/
+h1 {
+    font-family: 'Courier New', Courier, monospace;text-align: center;
+}
+/*HEAD-BAR STYLES*/
+.headbar {
+    /* Turn this into header bar with buttons */
+    color: aqua; 
+}
+/*FOOTER STYLES*/
+.footer {
+  margin: 0;
+  margin-top: auto;
+  padding: 12px 16px;
+  background: rgb(181, 181, 181);
+  color: white;
+  text-align: left;
+}
+/*BODY STYLES*/
+body {
+    background-color: rgb(255, 255, 255);
+}
+/*PARAGRAPH STYLES*/
+p {
+  font-family: 'Courier New', Courier, monospace;text-align: center;  
+}
+p1 {
+    font-size: 18px;
+    color:blueviolet;
+}
+/*BUTTON STYLES*/
+button {
+    color: blueviolet;
+}
+/*TABLE STYLES*/
+th, td {
+  border:1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+tr {
+    :hover {background-color: #D6EEEE;} /*Not doing rows just cells?*/
+}
