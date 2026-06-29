@@ -1,7 +1,6 @@
 /* cache.css */
 
 /*NAV-BAR*/
-
 .nav {
     display: flex;
     list-style: none;
@@ -17,14 +16,47 @@
     text-decoration: none;
 }
 .nav li a:hover {
-  background: #111111;
+    background: #111111;
 }
-
+/* Style the Table of Contents list */
+.chap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+}
+.chap li {
+    list-style: none;
+    margin: 8px 0;
+}
+.chap li a {
+    display: block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.chap li a:hover {
+    background-color: #d8e8ff;
+    border-color: #7aa9e6;
+}
+.chapter-title {
+    text-align: center;
+    padding-bottom: 6px;
+    margin-top: 40px;
+    color: #1e3a5f;
+}
 /*ALL-PAGES MARGINS*/
 html, body { 
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 body {
     display: flex;
